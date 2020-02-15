@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1577731779 source:c:\users\samsung\desktop\codeblocks\secimsimiliasyonu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
