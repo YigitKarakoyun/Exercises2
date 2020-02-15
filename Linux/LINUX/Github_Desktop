@@ -1,0 +1,4 @@
+//UBUNTUYA GITHUB DESKTOP KURULUMU
+snap install github-desktop --beta --classic
+
+//En son kurduğumda çalışmadı

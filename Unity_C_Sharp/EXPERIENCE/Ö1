@@ -1,0 +1,63 @@
+Background Png arat
+Button Png arat
+Yazı tahtası 
+Doku Arat
+Ahşap doku
+Top doku
+Ball texture
+
+
+Anchor klavyeden shift basarak
+
+Image script 
+	Preserve Aspect(Ölçü koruyarak boyutlandırma)
+	SetNativeSize (Resmin orijinal ölçülerinde)
+
+	Color değiştir farklı renk olsun
+	
+Button Script
+	Interactable tıklanabilir buton demek
+
+	Transition(None, Color Tint, Sprite Swap, Animation)
+	Color Tint: Üzerine geldiğinde rengi değişir
+		Normal Color: Normal Renk
+		Highlighted Color: Üzerine geldiğinde
+		Pressed Color: Üzerine Tıkladığımız zaman
+		Disable Color: (Interactable pasifse görünür.)Buton aktif olmadığında
+		
+	Sprite Swap
+		Target Graphic: Ana grafik
+		Highlighted Sprite:
+		Pressed Sprite:
+		Disabled Sprite:
+
+		Target Graphic yerine Arkaplan image yaparsak. Buton yerine arkaplan image resim değişir.
+
+input field
+	OnValueChanged: Değişiklik Olduğunda
+	OnEditChanged: Yazı yazıp entere bastığımızda
+
+Edit - Preference - PlayModeColorTint Çalışma modu rengini ayarlıyoruz
+Labirent içi ile dışı farklı olması hoş görüntü oluşturur. Y = 0.01
+
+anyKey herhangi bir tuşa basıldıysa
+
+
+Rigidbody
+	Angular Drag 0 demek 1 defa dönerse sonsuza defa döner
+	Drag 0 demek sürtünmesiz ortam
+	Mass Kütle
+	isKinematik: True ise Yerçekimi sürtünme etki etmez
+	
+	addForce: x ve z döndürme ekle
+
+ 
+ctrl + rigidbody sayfaya yönlendiryoruz.
+
+
+Mesh collider yoksa aşağı düşer
+OnCollisionEnter(Collision cls)
+oyun devam sa rg.angular velocity = 0 yapıp dönmesi engellenir.(oyuntamam)
+
+Window - Lighting Setting
+Debug Settings autogenerate kaldır. Generate Lightning

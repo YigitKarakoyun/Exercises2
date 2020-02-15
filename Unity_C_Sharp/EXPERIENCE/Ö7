@@ -1,0 +1,9 @@
+animclip 
+	has exit time: animasyon bittikten sonra geç
+
+geçiş çubuğuna bas 	
+	settings: geçiş yumuşaklığı ayarlar.
+	transition duration: geçiş yumuşaklığı
+
+AnimController
+	avatar ekli olması lazım yoksa çalışmaz

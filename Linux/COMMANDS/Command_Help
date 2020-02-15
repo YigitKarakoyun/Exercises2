@@ -1,0 +1,14 @@
+//-h yardım komutudur.
+sudo -h
+
+//-V versiyon komutudur.
+sudo -V
+
+//NEOFETCH YÜKLER
+sudo apt install  neofetch
+
+//SCREENFETCH YÜKLER
+sudo apt install screenfetch
+
+//UNAME BİLGİ ALMA
+uname -a

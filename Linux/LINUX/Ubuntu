@@ -1,0 +1,52 @@
+++++++++
+Commands
+++++++++
+Open a terminal window
+---------------------------------
+Update you system
+sudo apt update && sudo apt upgrade
+-------------------------------------
+Add the Variery wallpaper changer ppa
+sudo add-apt-repository ppa:peterlevi/ppa
+-------------------------------------
+Add the noobslab icons themes ppa
+sudo add-apt-repository ppa:noobslab/icons
+-----------------------------------------------
+Add the noobslab gtk themes ppa
+sudo add-apt-repository ppa:noobslab/themes
+---------------------------------------------
+Add the paper themes ppa
+sudo add-apt-repository ppa:snwh/pulp
+--------------------------------------------
+Add the numix themes ppa
+sudo add-apt-repository ppa:numix/ppa
+--------------------------------------------
+Add the ravefinity project themes ppa
+sudo add-apt-repository ppa:ravefinity-project/ppa
+----------------------------------------------------
+Update your package list
+sudo apt update 
+-------------------------------------------------------------
+Install the gtk themes
+sudo apt install ultra-flat-theme paper-gtk-theme numix-gtk-theme ambiance-flat-colors radiance-flat-colors
+--------------------------------------------------------------------------------------------------------------
+Install the gtk themes
+sudo apt install vivacious-colors-gtk-dark vivacious-colors-gtk-light ambiance-blackout-flat-colors
+--------------------------------------------------------------------------------------------------------------
+Install the icons themes
+sudo apt install numix-icon-theme numix-icon-theme-circle vivacious-colors vibrancy-colors faenza-icon-theme faience-icon-theme
+--------------------------------------------------------------------------------------------------------------------------------
+Install Ubuntu restricted extras
+sudo apt install ubuntu-restricted-extras
+----------------------------------------------------------
+Install unity tweak variety gimp vlc qbittorrent guake and synapse
+sudo apt install unity-tweak-tool variety gimp vlc qbittorrent guake synapse
+-----------------------------------------------------------------------------
+Add the guake drop down terminal to the startup applications
+============================================================
+Open unity tweak tool and select your favotite theme
+============================================================
+Open and configure the synapse launcher
+============================================================
+Open and configure the variety wallpaper changer
+============================================================

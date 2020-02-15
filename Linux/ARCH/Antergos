@@ -1,0 +1,79 @@
+Arch Linux Nedir? Yazılımcı Olarak Bilgisayara Neler Kuruyorum?
+Hüseyin Serkan Özaydin
+Hüseyin Serkan Özaydin
+Apr 27, 2018 · 4 min read
+Masaüstü ortamım
+
+Merhabalar, bu yazım da neden Arch Linux kullandığımı diğer dağıtımlarda neden tutunamadığımdan bahsedeceğim. Bunlardan sonra bilgisayara neleri neden kurduğumdan bahsedip yazıyı bitireceğim.
+
+Benim Linux hayatım üniversitenin 2.sınıfında başladı. Linux hayatına Ubuntu tabanlı Linux Mint ile başladım. İlk başlarda biraz zorlansam da Windows kullanırken aldığım performanstan fazlasını aldığım için Windows’u silip hayatıma sadece Linux Mint ile devam ettim. Sonra çalıştığım şirketten aldığım para ile bir adet ssd aldım. Ssd aldıktan sonra hayatımdan tamamiylen Windows’u çıkardım.
+
+Özgür yazılım ile bu ara tanıştım. Facebook’ta GNU/Linux gruplarına üye oldum. Herkesin Özgür Yazılım’dan bahsetmesinden dolayı Özgür Yazılıma bende bir merak oluştu. Araştırdıkça Özgür Yazılım Manifestosunu beğendim. Bu yüzden yaptığım projeleri açık kaynak olarak paylaşıyorum. Tabi Özgür Yazılım açık kaynak demek değildir. Bu manifestoyu anlayabilmek için aşağıdaki videoyu izlemenizi tavsiye ederim.
+
+Kendinizi geliştiren bir üniversite öğrencisi iseniz kesinlikle İstanbul’da olan etkinliklere katılmanızı tavsiye ederim. Özellikle merkezinde Özgür Yazılımı bulunduran etkinlikler. Ama her etkinlik bizimdir deyip hepsine katılın :)
+
+Konuyu fazla saptırmadan Linux serüvenime devam edeyim. Linux Mint’i bir süre kullandıktan sonra Linux Mint’in yeni sürümlerinde sıkıntı yaşadığım için ve başka dağıtımlar denemek istedim bu yüzden yeni dağıtımlar aramak zorunda kaldım.
+
+Uzun bir süre Linux Dağıtımı arayıp en son Arch tabanlı Manjaro’yu keşfettim. En başta yıldızımız pek fazla uyuşmadı. Sonra AUR ve Pacman ile tanışınca Manjaro kullanmaya karar verdim.
+
+Peki AUR Ne Oluyor?
+
+Aur, Arch topluluğunda bulunan insanların paketleri Arch için derleyip paketleri yükledikleri bir sistem. Bu sayede yeni olan veya eski olan tüm paketleri bulabiliyorsunuz. Ve sadece bir komut satırı ile. Aşağıda anlatacağım.
+
+Manjaro’da biraz Arch deneyimi kazanınca ve sürekli bilgisayara format attığımdan dolayı aynı paketleri tekrar tekrar yüklüyordum. En son canıma tak etti ve “After From Manjaro” adlı programı yazdım. After From Manjaro bilgisayarınıza format attıktan sonra Arch veya Arch tabanlı sistemlere seçtiğiniz programları otomatik yükleyen bir program.
+
+Projeye göz atmak isteyen arkadaşlar şu linke tıklayabilir:
+hsmnzaydn/AfterFromManjaro
+AfterFromManjaro - Your Manjaro distribution automatically loads packages for you.
+github.com
+
+Bunlardan sonra Manjaro’da yeni sürümlerinde bana sorun çıkarmaya başlayınca yine Arch tabanlı ama daha stabil dağıtımlar aradım. En son Antergos adlı dağıtımı buldum. Şuan hala Antergos’u kullanıyorum ve çok stabil.
+
+Bir paket Arch Linux veya Arch Linux Tabanlı Sistemlerde Nasıl Yüklenir?
+
+Çok basit ! Terminali açın ve şunu yazın
+
+“Trizen -S paketAdı”
+
+Örneğin Android Studio’yu yükleyeceğiz bunun için terminali açıp şunu yazmanız yeterli:
+
+“Trizen -S android-studio”
+
+Artık arkanıza yaslanıp Android Studio’nun yüklenmesini bekleyebilirsiniz.
+
+Hangi Masaüstü’nü Neden Kullanıyorum?
+
+Birçok masaüstü ortamı denedim. Bunlar sırası ile şöyle;
+
+    Cinnamon: İlk masaüstü ortamım ama yeni olduğu için sürekli masaüstü ortamının çökmesiyle ilgili sorun yaşıyordum.
+    KDE: Görünüşü çok güzel ama bana çok karmaşık geldiği için fazla kullanmadım.
+    I3: Kullanırken kendimi havalı hissettiğim tek masaüstü ortamı. Ama kullanmakta zorlandım o yüzden bıraktım.
+    Deepin: Görünüş ve kullanım kolaylığı olarak çok iyi bir masaüstü ortamı. Ama bilgisayarın 6 gb rami olduğu için ve Android Studio vb. programları aynı anda kullanmak zorunda kaldığım için bırakmak zorunda kaldım.
+    Xfce: Eski bir masaüstü ortamı. Az kaynak harcıyor. Kullanımı kolay. Bu özelliklerinden dolayı şuan bu masaüstü ortamını kullanıyorum.
+
+Hangi Programları Yüklüyorum?
+
+Sırası ile yazıyorum.
+
+    Ulauncher: Kolay şekilde açmak istediğim programı bu uygulama sayesinde açabiliyorum. Sadece ctrl+space tuşuna basıyorum ve çalıştırmak istediğim programı yazıyorum. Eğer Google’de birşey arayacak isem Ulauncher açıldığı gibi “g” ye basıp boşluk bırakarak istediğim aramayı yapabiliyorum.
+
+    Plank: Kullandığım bir dock. Windows’un araç çubuğu gibi ama daha güzel bir görünüme sahip.
+
+    Conky: Masaüstü ortamıma güzel bir hava katıyor. Temasını istediğiniz gibi düzenleyebiliyorsunuz.
+
+. Termius: Bazı durumlarda uzak sunucuya bağlanmanız gerekiyor. Ve benim gibi birden çok uzak sunucuya bağlanmanız gerekiyor ise uzak sunuculara tek tık ile ulaşmanız gerekebilir bunun için Termius biçilmiş kaftan. Uzak sunucu bilgilerinizi kaydedin ve sonra tek tık ile bağlanın.
+
+. MailSpring: Tasarım olarak hem şık hem kullanımı kolay olan bir mail client
+Mail Spring
+
+. Simple Note: Bulabildiğim en iyi not tutma uygulaması. Başka cihazlar ile senkronize olması ve notunu paylaşma olayı işimi çok rahatlatıyor.
+
+Bunlar haricinde işime yaracak bazı araçlar ve programlar kullanıyorum bunları sırası ile şöyle;
+
+    Android Studio: Ekmeğimi buradan kazanıyorum :)
+    Visual Studio Code: Python ve Node.js yazarken bu text editorünü kullanıyorum. Microsoft’un yaptığı en güzel şey olabilir.
+    Deepin Sistem İzleyici: Windows’un Görev Yöneticisi gibi birşey.
+    Deepin Uçbirim: Terminal olarak kullanıyorum. Şık teması ve rahatlığı beni benden alıyor.
+    Franz: Birçok mesajlama sistemini (Whatsapp, discord, slack, messenger vb. ) tek platformda size sunuyor.
+
+Bu yazımda bahsedeceğim şeyler bunlar. Bu arada Linux Terminal Komutlarını teker teker anlatan eski bir uygulamam bulunmakta. Belki size faydası dokunur diye buraya bırakıyorum.

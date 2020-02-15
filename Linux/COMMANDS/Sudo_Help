@@ -1,0 +1,46 @@
+Seçenekler:
+  -A, --askpass                 parola sorgulaması için bir yardımcı
+                                program kullan
+  -b, --background              arkaalanda komutu çalıştır
+  -C, --close-from=num          >= sayı olan tüm dosya tanımlayıcılarını
+                                kapat
+  -E, --preserve-env            komut çalıştırılırken kullanıcı
+                                ortamını koru
+      --preserve-env=list       özel çevre değişkenlerini koru
+  -e, --edit                    komut çalıştırmak yerine dosyaları
+                                düzenleyiniz
+  -g, --group=group             grup adı veya ID olarak tanımlanan komutu
+                                çalıştır
+  -H, --set-home                HOME değişkenini kullanıcının ev dizinine
+                                hedefle
+  -h, --help                    yardım mesajını görüntüle ve çık
+  -h, --host=host               komutunuzu hostta çalıştırın (eğer plugin
+                                tarafından destekleniyorsa)
+  -i, --login                   oturum kabuğunu hedef kullanıcı olarak
+                                çalıştır; bir komut da belirtilebilir
+  -K, --remove-timestamp        zaman damgası dosyasını kalıcı olarak
+                                kaldır
+  -k, --reset-timestamp         zaman damgası dosyasının geçerliliğini
+                                kaldır
+  -l, --list                    kullanıcı yetkilerini listele veya özel bir
+                                komut denetle; daha uzun biçim için iki kez
+                                kullanın
+  -n, --non-interactive         etkileşimsiz kip, sorgu yapılmaz
+  -P, --preserve-groups         hedefe atamak yerine grup vektörünü koru
+  -p, --prompt=prompt           belirtilen parola sorgusunu kullan
+  -r, --role=role               SELinux güvenlik bağlamını belirtilen rol
+                                ile oluştur
+  -S, --stdin                   standart girdiden şifreyi okuyun
+  -s, --shell                   kabuğu hedef kullanıcı olarak çalıştır;
+                                bir komut da belirtilebilir
+  -t, --type=type               SELinux güvenlik bağlamını belirtilen tür
+                                ile oluştur
+  -T, --command-timeout=timeout belirtilen süre sonunda komutu sonlandır
+  -U, --other-user=user         liste modunda, kullanıcıların
+                                ayrıcalıklarını görüntüle
+  -u, --user=user               belirtilen kullanıcı adı veya ID ile komutu
+                                çalıştırın (veya dosyayı düzenleyin)
+  -V, --version                 sürüm bilgisini göster ve çık
+  -v, --validate                kullanıcı zaman damgasını bir komut
+                                çalıştırmadan güncelle
+  --                            komut satırı argümanlarını işlemeyi durdur

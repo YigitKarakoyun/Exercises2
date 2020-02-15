@@ -1,0 +1,17 @@
+//-----------------------------NETBEANS LİNKİ----------------------------------
+https://netbeans.org/downloads/8.2/
+
+//-----------------------------NETBEANS 11 KURULUM VİDEO-----------------------
+https://www.youtube.com/watch?v=dTCzHtBsYMo
+
+
+//-----------------------------UBUNTUYA NETBEANS KURULUMU----------------------
+https://www.youtube.com/watch?v=65UFVYNc39M
+
+Netbeans Installation Commands
+
+for netbeans 11
+sudo snap install netbeans --classic
+
+for netbeans 10
+sudo apt install netbeans
